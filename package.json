@@ -1,0 +1,24 @@
+{
+  "name": "pushbullet-sms",
+  "version": "1.0.0",
+  "description": "Library to use the PushBullet's SMS functionalities",
+  "main": "lib/pushbullet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pushbullet",
+    "sms",
+    "api"
+  ],
+  "author": "DrPandemic",
+  "license": "MIT",
+  "dependencies": {
+    "atob": "^1.1.2",
+    "bluebird": "^2.10.2",
+    "btoa": "^1.1.2",
+    "node-forge": "^0.6.35",
+    "restler": "^3.4.0",
+    "websocket": "^1.0.22"
+  }
+}
